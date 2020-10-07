@@ -1,0 +1,15 @@
+{
+  "title": "Learn with alexchiri",
+  "url": "https://zealous-wave-0ec9a1203.azurestaticapps.net/",
+  "description": "Random bits of knowledge related to DevOps, software development, productivity and more",
+  "feed": {
+    "subtitle": "Random bits of knowledge related to DevOps, software development, productivity and more",
+    "filename": "feed.xml",
+    "path": "/feed/feed.xml",
+    "id": "https://zealous-wave-0ec9a1203.azurestaticapps.net/"
+  },
+  "author": {
+    "name": "Alexandru Chirițescu",
+    "email": "alex@alexchiri.com"
+  }
+}
