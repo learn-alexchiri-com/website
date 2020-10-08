@@ -5,7 +5,7 @@ date: 2020-05-17
 tags:
   - Kubernetes
   - Docker
-  - Kubernetes-in-Docker
+  - Kubernetes in Docker
 layout: layouts/post.njk
 ---
 
