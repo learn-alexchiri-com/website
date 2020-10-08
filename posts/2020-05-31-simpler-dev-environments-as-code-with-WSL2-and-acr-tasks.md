@@ -6,6 +6,7 @@ tags:
   - DevOps
   - Linux
   - WSL2
+  - Docker
 layout: layouts/post.njk
 ---
 
