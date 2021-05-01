@@ -8,8 +8,11 @@ tags:
   - Kubernetes in Docker
 layout: layouts/post.njk
 ---
-
-https://youtu.be/l4fbYuS3lp4
+<br/>
+<br/>
+{% set videoTitle = "Create a multi node cluster with a non default Kubernetes version" %}
+{% set videoId = "l4fbYuS3lp4" %}
+{% include 'youtube.njk' %}
 
 Detailed instructions shown in the recording can be found in this [gist](https://gist.github.com/alexchiri/5791c93eaf31f53ad865336fa09527ba).
 

@@ -9,8 +9,11 @@ tags:
   - Windows 10
 layout: layouts/post.njk
 ---
-
-https://youtu.be/Ud0LAss1xRo
+<br/>
+<br/>
+{% set videoTitle = "How to setup WSL2 and Docker for WSL2 on Windows 10" %}
+{% set videoId = "Ud0LAss1xRo" %}
+{% include 'youtube.njk' %}
 
 A quick tutorial on how to setup #WSL 2 (Windows Subsystem for Linux) and Docker for WSL2 on Windows 10.
 

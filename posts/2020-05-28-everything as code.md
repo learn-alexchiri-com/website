@@ -7,7 +7,12 @@ tags:
 layout: layouts/post.njk
 ---
 
-https://www.youtube.com/watch?v=QEAE2n4i72I
+
+<br/>
+<br/>
+{% set videoTitle = "Everything-as-code" %}
+{% set videoId = "QEAE2n4i72I" %}
+{% include 'youtube.njk' %}
 
 You hear everywhere about DevOps and pipelines-as-code, configuration-as-code and other-things-as-code. What other examples are there and what are the benefits of everything-as-code*?
 

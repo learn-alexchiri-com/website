@@ -12,7 +12,11 @@ tags:
 layout: layouts/post.njk
 ---
 
-https://youtu.be/YvdyoaiE-H0
+<br/>
+<br/>
+{% set videoTitle = "How to get started with Kubernetes in Docker in WSL2 Ubuntu 18" %}
+{% set videoId = "YvdyoaiE-H0" %}
+{% include 'youtube.njk' %}
 
 Detailed instructions shown in the recording can be found in this [gist](https://gist.github.com/alexchiri/aca79caee89a33f0856951cedbf306dc)
 

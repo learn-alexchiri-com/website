@@ -9,7 +9,11 @@ tags:
 layout: layouts/post.njk
 ---
 
-https://youtu.be/vsf2nfFxkZs
+<br/>
+<br/>
+{% set videoTitle = "What and Why is there Kubernetes?" %}
+{% set videoId = "vsf2nfFxkZs" %}
+{% include 'youtube.njk' %}
 
 A very high-level introduction to what Kubernetes is and what is its purpose. 
 

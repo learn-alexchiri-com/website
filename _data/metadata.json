@@ -1,15 +1,21 @@
 {
   "title": "Learn with alexchiri",
-  "url": "https://zealous-wave-0ec9a1203.azurestaticapps.net/",
+  "url": "https://learn.alexchiri.com/",
+  "language": "en",
   "description": "Random bits of knowledge related to DevOps, software development, productivity and more",
   "feed": {
     "subtitle": "Random bits of knowledge related to DevOps, software development, productivity and more",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
-    "id": "https://zealous-wave-0ec9a1203.azurestaticapps.net/"
+    "id": "https://learn.alexchiri.com/"
+  },
+  "jsonfeed": {
+    "path": "/feed/feed.json",
+    "url": "https://learn.alexchiri.com/feed/feed.json"
   },
   "author": {
-    "name": "Alexandru Chirițescu",
-    "email": "alex@alexchiri.com"
+    "name": "Alexandru Chiritescu",
+    "email": "alex.chiri@gmail.com",
+    "url": "https://alexchiri.com"
   }
 }

@@ -10,7 +10,11 @@ tags:
 layout: layouts/post.njk
 ---
 
-https://www.youtube.com/watch?v=S3m59_lTAuc
+<br/>
+<br/>
+{% set videoTitle = "Use Docker and WSL2 to create Linux development environments as code" %}
+{% set videoId = "S3m59_lTAuc" %}
+{% include 'youtube.njk' %}
 
 In the [Everything-as-code video](https://learn.alexchiri.com/posts/2020-05-28-everything%20as%20code/) I mentioned creating development environments as code as well. Here I show a way to do that using Docker and WSL2 in Windows 10.
 

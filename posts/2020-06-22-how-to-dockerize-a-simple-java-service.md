@@ -8,7 +8,11 @@ tags:
 layout: layouts/post.njk
 ---
 
-https://youtu.be/ts7nE6gO2sA
+<br/>
+<br/>
+{% set videoTitle = "How to Dockerize a simple Java service" %}
+{% set videoId = "ts7nE6gO2sA" %}
+{% include 'youtube.njk' %}
 
 Quick overview of how to Dockerize a very simple Java REST API service. I will use the resulting project in the next videos on Kubernetes, to exemplify how to use the different features of Kubernetes and more specifically how to deploy and configure an application in a Kubernetes cluster.
 

@@ -10,7 +10,11 @@ tags:
 layout: layouts/post.njk
 ---
 
-https://youtu.be/03IqAdwd9NY
+<br/>
+<br/>
+{% set videoTitle = "Simpler dev environments as code with WSL2 and ACR Tasks" %}
+{% set videoId = "03IqAdwd9NY" %}
+{% include 'youtube.njk' %}
 
 Follow-up on previous video on dev environments as-code with WSL2 and Docker (https://learn.alexchiri.com/posts/2020-05-28-Use-Docker-and-WSL2-to-create-linux-development-environments-as-code/). This time, I'm showing an attempt to streamline the building, pushing and updating the environments on the local machines using Azure Container Registry Tasks and a custom profile in Windows Terminal.
 
