@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>Learn with alexchiri</title>
+	<subtitle>Random bits of knowledge related to DevOps, software development, productivity and more</subtitle>
+	
+	<link href="https://learn.alexchiri.com/feed/feed.xml" rel="self"/>
+	<link href="https://learn.alexchiri.com/"/>
+	<updated>2020-06-22T00:00:00Z</updated>
+	<id>https://learn.alexchiri.com/</id>
+	<author>
+		<name>Alexandru Chiritescu</name>
+		<email>alex.chiri@gmail.com</email>
+	</author>
+	
+	<entry>
+		<title>How to Dockerize a simple Java service</title>
+		<link href="https://learn.alexchiri.com/posts/2020-06-22-how-to-dockerize-a-simple-java-service/"/>
+		<updated>2020-06-22T00:00:00Z</updated>
+		<id>https://learn.alexchiri.com/posts/2020-06-22-how-to-dockerize-a-simple-java-service/</id>
+		<content type="html">&lt;br /&gt;
+&lt;br /&gt;
+&lt;!-- Load the JS only when the component is needed --&gt;
+&lt;script src=&quot;https://learn.alexchiri.com/javascript/lite-yt-embed.js&quot;&gt;&lt;/script&gt;
+&lt;!-- Web component for lite-youtube-embed --&gt;
+&lt;lite-youtube videoid=&quot;ts7nE6gO2sA&quot; style=&quot;background-image: url(&#39;https://i.ytimg.com/vi/ts7nE6gO2sA/hqdefault.jpg&#39;);&quot;&gt;
+  &lt;button type=&quot;button&quot; class=&quot;lty-playbtn&quot;&gt;
+    &lt;span class=&quot;lyt-visually-hidden&quot;&gt;Play Video: How to Dockerize a simple Java service&lt;/span&gt;
+  &lt;/button&gt;
+&lt;/lite-youtube&gt;
+&lt;p&gt;Quick overview of how to Dockerize a very simple Java REST API service. I will use the resulting project in the next videos on Kubernetes, to exemplify how to use the different features of Kubernetes and more specifically how to deploy and configure an application in a Kubernetes cluster.&lt;/p&gt;
+&lt;p&gt;Useful links:&lt;br /&gt;
+- The cool-service Git repo where the sources of this simple service are: &lt;a href=&quot;https://github.com/learn-alexchiri-com/cool-service&quot;&gt;https://github.com/learn-alexchiri-com/cool-service&lt;/a&gt;&lt;br /&gt;
+- The Dropwizard homepage: &lt;a href=&quot;https://www.dropwizard.io/en/latest/&quot;&gt;https://www.dropwizard.io/en/latest/&lt;/a&gt;&lt;br /&gt;
+- The documentation of the dropwizard-example project that I used as a base for the cool-service (almost identical): &lt;a href=&quot;https://www.dropwizard.io/en/latest/manual/example.html&quot;&gt;https://www.dropwizard.io/en/latest/manual/example.html&lt;/a&gt;&lt;br /&gt;
+- The location of the cool-service image on Docker Hub: &lt;a href=&quot;https://hub.docker.com/repository/docker/alexchiri/cool-service&quot;&gt;https://hub.docker.com/repository/docker/alexchiri/cool-service&lt;/a&gt;&lt;br /&gt;
+- Documentation on multi-stage builds: &lt;a href=&quot;https://docs.docker.com/develop/develop-images/multistage-build/&quot;&gt;https://docs.docker.com/develop/develop-images/multistage-build/&lt;/a&gt;&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Simpler dev environments as code with WSL2 and ACR Tasks</title>
+		<link href="https://learn.alexchiri.com/posts/2020-05-31-simpler-dev-environments-as-code-with-WSL2-and-acr-tasks/"/>
+		<updated>2020-05-31T00:00:00Z</updated>
+		<id>https://learn.alexchiri.com/posts/2020-05-31-simpler-dev-environments-as-code-with-WSL2-and-acr-tasks/</id>
+		<content type="html">&lt;br /&gt;
+&lt;br /&gt;
+&lt;!-- Load the JS only when the component is needed --&gt;
+&lt;script src=&quot;https://learn.alexchiri.com/javascript/lite-yt-embed.js&quot;&gt;&lt;/script&gt;
+&lt;!-- Web component for lite-youtube-embed --&gt;
+&lt;lite-youtube videoid=&quot;03IqAdwd9NY&quot; style=&quot;background-image: url(&#39;https://i.ytimg.com/vi/03IqAdwd9NY/hqdefault.jpg&#39;);&quot;&gt;
+  &lt;button type=&quot;button&quot; class=&quot;lty-playbtn&quot;&gt;
+    &lt;span class=&quot;lyt-visually-hidden&quot;&gt;Play Video: Simpler dev environments as code with WSL2 and ACR Tasks&lt;/span&gt;
+  &lt;/button&gt;
+&lt;/lite-youtube&gt;
+&lt;p&gt;Follow-up on previous video on dev environments as-code with WSL2 and Docker (&lt;a href=&quot;https://learn.alexchiri.com/posts/2020-05-28-Use-Docker-and-WSL2-to-create-linux-development-environments-as-code/&quot;&gt;https://learn.alexchiri.com/posts/2020-05-28-Use-Docker-and-WSL2-to-create-linux-development-environments-as-code/&lt;/a&gt;). This time, I&#39;m showing an attempt to streamline the building, pushing and updating the environments on the local machines using Azure Container Registry Tasks and a custom profile in Windows Terminal.&lt;/p&gt;
+&lt;p&gt;Links:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GitHub repo for my POC of using Dockerfiles to create WSL2 distros: &lt;a href=&quot;https://github.com/alexchiri/project-dev-palace&quot;&gt;https://github.com/alexchiri/project-dev-palace&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Tutorials on using ACR Tasks to build and push images on commit: &lt;a href=&quot;https://docs.microsoft.com/en-us/azure/container-registry/container-registry-tutorial-build-task&quot;&gt;https://docs.microsoft.com/en-us/azure/container-registry/container-registry-tutorial-build-task&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>What and Why is there Kubernetes?</title>
+		<link href="https://learn.alexchiri.com/posts/2020-05-29-what-and-why-is-there-kubernetes/"/>
+		<updated>2020-05-29T00:00:00Z</updated>
+		<id>https://learn.alexchiri.com/posts/2020-05-29-what-and-why-is-there-kubernetes/</id>
+		<content type="html">&lt;br /&gt;
+&lt;br /&gt;
+&lt;!-- Load the JS only when the component is needed --&gt;
+&lt;script src=&quot;https://learn.alexchiri.com/javascript/lite-yt-embed.js&quot;&gt;&lt;/script&gt;
+&lt;!-- Web component for lite-youtube-embed --&gt;
+&lt;lite-youtube videoid=&quot;vsf2nfFxkZs&quot; style=&quot;background-image: url(&#39;https://i.ytimg.com/vi/vsf2nfFxkZs/hqdefault.jpg&#39;);&quot;&gt;
+  &lt;button type=&quot;button&quot; class=&quot;lty-playbtn&quot;&gt;
+    &lt;span class=&quot;lyt-visually-hidden&quot;&gt;Play Video: What and Why is there Kubernetes?&lt;/span&gt;
+  &lt;/button&gt;
+&lt;/lite-youtube&gt;
+&lt;p&gt;A very high-level introduction to what Kubernetes is and what is its purpose.&lt;/p&gt;
+&lt;p&gt;You can find the support material used in this presentation here: &lt;a href=&quot;https://github.com/learn-alexchiri-com/kubernetes/blob/master/1.%20What%20and%20Why%20is%20there%20Kubernetes.md&quot;&gt;https://github.com/learn-alexchiri-com/kubernetes/blob/master/1. What and Why is there Kubernetes.md&lt;/a&gt;&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Everything-as-code</title>
+		<link href="https://learn.alexchiri.com/posts/2020-05-28-everything%20as%20code/"/>
+		<updated>2020-05-28T00:00:00Z</updated>
+		<id>https://learn.alexchiri.com/posts/2020-05-28-everything%20as%20code/</id>
+		<content type="html">&lt;br /&gt;
+&lt;br /&gt;
+&lt;!-- Load the JS only when the component is needed --&gt;
+&lt;script src=&quot;https://learn.alexchiri.com/javascript/lite-yt-embed.js&quot;&gt;&lt;/script&gt;
+&lt;!-- Web component for lite-youtube-embed --&gt;
+&lt;lite-youtube videoid=&quot;QEAE2n4i72I&quot; style=&quot;background-image: url(&#39;https://i.ytimg.com/vi/QEAE2n4i72I/hqdefault.jpg&#39;);&quot;&gt;
+  &lt;button type=&quot;button&quot; class=&quot;lty-playbtn&quot;&gt;
+    &lt;span class=&quot;lyt-visually-hidden&quot;&gt;Play Video: Everything-as-code&lt;/span&gt;
+  &lt;/button&gt;
+&lt;/lite-youtube&gt;
+&lt;p&gt;You hear everywhere about DevOps and pipelines-as-code, configuration-as-code and other-things-as-code. What other examples are there and what are the benefits of everything-as-code*?&lt;/p&gt;
+&lt;p&gt;(Also a good opportunity to test my new graphical tablet. Excuses for the terrible hand writing and drawing! 😂)&lt;/p&gt;
+&lt;p&gt;*everything that is feasible to do as code.&lt;/p&gt;
+&lt;p&gt;LE: first video on Linux development environments as code is now uploaded &lt;a href=&quot;https://www.youtube.com/watch?v=S3m59_lTAuc&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Use Docker and WSL2 to create Linux development environments as code</title>
+		<link href="https://learn.alexchiri.com/posts/2020-05-28-Use-Docker-and-WSL2-to-create-linux-development-environments-as-code/"/>
+		<updated>2020-05-28T00:00:00Z</updated>
+		<id>https://learn.alexchiri.com/posts/2020-05-28-Use-Docker-and-WSL2-to-create-linux-development-environments-as-code/</id>
+		<content type="html">&lt;br /&gt;
+&lt;br /&gt;
+&lt;!-- Load the JS only when the component is needed --&gt;
+&lt;script src=&quot;https://learn.alexchiri.com/javascript/lite-yt-embed.js&quot;&gt;&lt;/script&gt;
+&lt;!-- Web component for lite-youtube-embed --&gt;
+&lt;lite-youtube videoid=&quot;S3m59_lTAuc&quot; style=&quot;background-image: url(&#39;https://i.ytimg.com/vi/S3m59_lTAuc/hqdefault.jpg&#39;);&quot;&gt;
+  &lt;button type=&quot;button&quot; class=&quot;lty-playbtn&quot;&gt;
+    &lt;span class=&quot;lyt-visually-hidden&quot;&gt;Play Video: Use Docker and WSL2 to create Linux development environments as code&lt;/span&gt;
+  &lt;/button&gt;
+&lt;/lite-youtube&gt;
+&lt;p&gt;In the &lt;a href=&quot;https://learn.alexchiri.com/posts/2020-05-28-everything%20as%20code/&quot;&gt;Everything-as-code video&lt;/a&gt; I mentioned creating development environments as code as well. Here I show a way to do that using Docker and WSL2 in Windows 10.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;GitHub repo for my POC of using Dockerfiles to create #WSL2 distros: &lt;a href=&quot;https://github.com/alexchiri/project-dev-palace&quot;&gt;https://github.com/alexchiri/project-dev-palace&lt;/a&gt; - very much WIP so no docs for now and the repo is heavily customised for my use, but I plan to change this soon!&lt;/li&gt;
+&lt;li&gt;I mentioned the VS Code extension that allows you to use Docker containers as development environments, you can find its docs &lt;a href=&quot;https://code.visualstudio.com/docs/remote/containers&quot;&gt;here&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Check out &lt;a href=&quot;https://learn.alexchiri.com/posts/2020-05-31-simpler-dev-environments-as-code-with-WSL2-and-acr-tasks/&quot;&gt;part 2&lt;/a&gt; of this video, where I show an attempt to continuously integrate changes made to these Dockerfiles and semi-automatically update the development environments based on those Dockerfiles running on my computer.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>How to get started with Kubernetes in Docker in WSL2 Ubuntu 18</title>
+		<link href="https://learn.alexchiri.com/posts/2020-05-17-how-to-get-started-with-kubernetes-in-docker-in-wsl2-ubuntu-18/"/>
+		<updated>2020-05-17T00:00:00Z</updated>
+		<id>https://learn.alexchiri.com/posts/2020-05-17-how-to-get-started-with-kubernetes-in-docker-in-wsl2-ubuntu-18/</id>
+		<content type="html">&lt;br /&gt;
+&lt;br /&gt;
+&lt;!-- Load the JS only when the component is needed --&gt;
+&lt;script src=&quot;https://learn.alexchiri.com/javascript/lite-yt-embed.js&quot;&gt;&lt;/script&gt;
+&lt;!-- Web component for lite-youtube-embed --&gt;
+&lt;lite-youtube videoid=&quot;YvdyoaiE-H0&quot; style=&quot;background-image: url(&#39;https://i.ytimg.com/vi/YvdyoaiE-H0/hqdefault.jpg&#39;);&quot;&gt;
+  &lt;button type=&quot;button&quot; class=&quot;lty-playbtn&quot;&gt;
+    &lt;span class=&quot;lyt-visually-hidden&quot;&gt;Play Video: How to get started with Kubernetes in Docker in WSL2 Ubuntu 18&lt;/span&gt;
+  &lt;/button&gt;
+&lt;/lite-youtube&gt;
+&lt;p&gt;Detailed instructions shown in the recording can be found in this &lt;a href=&quot;https://gist.github.com/alexchiri/aca79caee89a33f0856951cedbf306dc&quot;&gt;gist&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This video shows:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;how to install Docker for Linux in WSL2&lt;/li&gt;
+&lt;li&gt;how to have Docker running in the WSL distribution every time you start your Windows computer&lt;/li&gt;
+&lt;li&gt;how to install go and kind&lt;/li&gt;
+&lt;li&gt;how to install kubectl, with an alias and autocompletion&lt;/li&gt;
+&lt;li&gt;how to install kubens and kubectx&lt;/li&gt;
+&lt;li&gt;how to create a basic kind cluster and ping its node using its private IP&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Create a multi node cluster with a non default Kubernetes version</title>
+		<link href="https://learn.alexchiri.com/posts/2020-05-17-create-a-multi-node-cluster-with-a-non-default-kubernetes-version/"/>
+		<updated>2020-05-17T00:00:00Z</updated>
+		<id>https://learn.alexchiri.com/posts/2020-05-17-create-a-multi-node-cluster-with-a-non-default-kubernetes-version/</id>
+		<content type="html">&lt;br /&gt;
+&lt;br /&gt;
+&lt;!-- Load the JS only when the component is needed --&gt;
+&lt;script src=&quot;https://learn.alexchiri.com/javascript/lite-yt-embed.js&quot;&gt;&lt;/script&gt;
+&lt;!-- Web component for lite-youtube-embed --&gt;
+&lt;lite-youtube videoid=&quot;l4fbYuS3lp4&quot; style=&quot;background-image: url(&#39;https://i.ytimg.com/vi/l4fbYuS3lp4/hqdefault.jpg&#39;);&quot;&gt;
+  &lt;button type=&quot;button&quot; class=&quot;lty-playbtn&quot;&gt;
+    &lt;span class=&quot;lyt-visually-hidden&quot;&gt;Play Video: Create a multi node cluster with a non default Kubernetes version&lt;/span&gt;
+  &lt;/button&gt;
+&lt;/lite-youtube&gt;
+&lt;p&gt;Detailed instructions shown in the recording can be found in this &lt;a href=&quot;https://gist.github.com/alexchiri/5791c93eaf31f53ad865336fa09527ba&quot;&gt;gist&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The instructions in this tutorial can be run on any kind installation. If you don&#39;t have kind installed, I show how to get started with kind and Docker in a WSL2 Ubuntu 18 on Windows 10 in a &lt;a href=&quot;https://learn.alexchiri.com/posts/2020-05-17-create-a-multi-node-cluster-with-a-non-default-kubernetes-version/&quot;&gt;separate video&lt;/a&gt;.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>How to setup WSL2 and Docker for WSL2 on Windows 10</title>
+		<link href="https://learn.alexchiri.com/posts/2020-05-07-how-to-setup-wsl2-and-docker-for-wsl2-on-windows-10/"/>
+		<updated>2020-05-07T00:00:00Z</updated>
+		<id>https://learn.alexchiri.com/posts/2020-05-07-how-to-setup-wsl2-and-docker-for-wsl2-on-windows-10/</id>
+		<content type="html">&lt;br /&gt;
+&lt;br /&gt;
+&lt;!-- Load the JS only when the component is needed --&gt;
+&lt;script src=&quot;https://learn.alexchiri.com/javascript/lite-yt-embed.js&quot;&gt;&lt;/script&gt;
+&lt;!-- Web component for lite-youtube-embed --&gt;
+&lt;lite-youtube videoid=&quot;Ud0LAss1xRo&quot; style=&quot;background-image: url(&#39;https://i.ytimg.com/vi/Ud0LAss1xRo/hqdefault.jpg&#39;);&quot;&gt;
+  &lt;button type=&quot;button&quot; class=&quot;lty-playbtn&quot;&gt;
+    &lt;span class=&quot;lyt-visually-hidden&quot;&gt;Play Video: How to setup WSL2 and Docker for WSL2 on Windows 10&lt;/span&gt;
+  &lt;/button&gt;
+&lt;/lite-youtube&gt;
+&lt;p&gt;A quick tutorial on how to setup #WSL 2 (Windows Subsystem for Linux) and Docker for WSL2 on Windows 10.&lt;/p&gt;
+&lt;p&gt;Topics covered:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Enable WSL in Windows 10&lt;/li&gt;
+&lt;li&gt;Sign up for the Windows Insider Program&lt;/li&gt;
+&lt;li&gt;Install and configure WSL2&lt;/li&gt;
+&lt;li&gt;Install a couple of WSL distributions&lt;/li&gt;
+&lt;li&gt;Install Docker Desktop with WSL2 backend&lt;/li&gt;
+&lt;li&gt;Install and configure the new Windows Terminal (preview)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Useful links shown in the video:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Slides: &lt;a href=&quot;https://app.slidebean.com/p/eB09NFC64z/How-to-setup-WSL2-and-Docker-for-WSL2-on-Windows-10&quot;&gt;https://app.slidebean.com/p/eB09NFC64z/How-to-setup-WSL2-and-Docker-for-WSL2-on-Windows-10&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Official guide from Microsoft on installing WSL2: &lt;a href=&quot;https://docs.microsoft.com/en-us/windows/wsl/wsl2-install&quot;&gt;https://docs.microsoft.com/en-us/windows/wsl/wsl2-install&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Page for downloading updated linux kernel for WSL2: &lt;a href=&quot;https://docs.microsoft.com/en-us/windows/wsl/wsl2-kernel&quot;&gt;https://docs.microsoft.com/en-us/windows/wsl/wsl2-kernel&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Issue on WSL when trying to update the linux kernel and getting an error that suggests that WSL is not enabled (when in fact it is): &lt;a href=&quot;https://github.com/microsoft/WSL/issues/5014&quot;&gt;https://github.com/microsoft/WSL/issues/5014&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Link to windows tool that can help us uninstall previous version of WSL Linux kernel and allow us to install the updated #Linux kernel for WSL: &lt;a href=&quot;https://support.microsoft.com/en-us/help/17588/windows-fix-problems-that-block-programs-being-installed-or-removed&quot;&gt;https://support.microsoft.com/en-us/help/17588/windows-fix-problems-that-block-programs-being-installed-or-removed&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Link to download Docker Desktop for Windows with WSL2 backend: &lt;a href=&quot;https://docs.docker.com/docker-for-windows/wsl-tech-preview/&quot;&gt;https://docs.docker.com/docker-for-windows/wsl-tech-preview/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Get started with Serverless JenkinsX on AWS EKS</title>
+		<link href="https://learn.alexchiri.com/posts/2020-04-16-get-started-with-Serverless-JenkinsX-on-AWS-EKS/"/>
+		<updated>2020-04-16T00:00:00Z</updated>
+		<id>https://learn.alexchiri.com/posts/2020-04-16-get-started-with-Serverless-JenkinsX-on-AWS-EKS/</id>
+		<content type="html">&lt;br /&gt;
+&lt;br /&gt;
+&lt;!-- Load the JS only when the component is needed --&gt;
+&lt;script src=&quot;https://learn.alexchiri.com/javascript/lite-yt-embed.js&quot;&gt;&lt;/script&gt;
+&lt;!-- Web component for lite-youtube-embed --&gt;
+&lt;lite-youtube videoid=&quot;npUKNjEPurQ&quot; style=&quot;background-image: url(&#39;https://i.ytimg.com/vi/npUKNjEPurQ/hqdefault.jpg&#39;);&quot;&gt;
+  &lt;button type=&quot;button&quot; class=&quot;lty-playbtn&quot;&gt;
+    &lt;span class=&quot;lyt-visually-hidden&quot;&gt;Play Video: Get started with Serverless JenkinsX on AWS EKS&lt;/span&gt;
+  &lt;/button&gt;
+&lt;/lite-youtube&gt;
+&lt;p&gt;Recording of the Jenkins X presentation and live demo done during the &amp;quot;Get started with Serverless Jenkins X on AWS EKS&amp;quot; online session on 16.04.2020 (Stockholm Jenkins Meetup).&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.meetup.com/Stockholm-Jenkins-Meetup/events/269909793/&quot;&gt;https://www.meetup.com/Stockholm-Jenkins-Meetup/events/269909793/&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Get started with Serverless Jenkins X on AWS EKS slides: &lt;a href=&quot;https://02f3b4b6141f4e501887-67ab80ec00c7299bd1255995bf933a71.ssl.cf2.rackcdn.com/Get%20started%20with%20Serverless%20Jenkins%20X%20on%20AWS%20EKS-16.04.2020.pdf&quot;&gt;https://02f3b4b6141f4e501887-67ab80ec00c7299bd1255995bf933a71.ssl.cf2.rackcdn.com/Get started with Serverless Jenkins X on AWS EKS-16.04.2020.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Step-by-step guide: &lt;a href=&quot;https://gist.github.com/alexchiri/6515d81d475645b97b9ecb7e9dbdd49a&quot;&gt;https://gist.github.com/alexchiri/6515d81d475645b97b9ecb7e9dbdd49a&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Short and high-level presentation about what and why is there Kubernetes: &lt;a href=&quot;https://gist.github.com/alexchiri/f2a6f514ef6ff2a13866972778797d70&quot;&gt;https://gist.github.com/alexchiri/f2a6f514ef6ff2a13866972778797d70&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+	</entry>
+</feed>
