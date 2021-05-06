@@ -13,7 +13,7 @@
 	</author>
 	
 	<entry>
-		<title>Create a local multi-node Kubernetes cluster with multipass and k3sup</title>
+		<title>Create a local multi-node Kubernetes cluster - multi-platform!</title>
 		<link href="https://learn.alexchiri.com/posts/2021-05-05-create-a-local-multi-node-kubernetes-cluster-with-multipass-and-k3sup/"/>
 		<updated>2021-05-05T00:00:00Z</updated>
 		<id>https://learn.alexchiri.com/posts/2021-05-05-create-a-local-multi-node-kubernetes-cluster-with-multipass-and-k3sup/</id>
@@ -22,7 +22,7 @@
 &lt;!-- Load the JS only when the component is needed --&gt;
 &lt;script src=&quot;https://learn.alexchiri.com/javascript/lite-yt-embed.js&quot;&gt;&lt;/script&gt;
 &lt;!-- Web component for lite-youtube-embed --&gt;
-&lt;lite-youtube videoid=&quot;nkLVgMKk4sQ&quot; style=&quot;background-image: url(&#39;https://i.ytimg.com/vi/nkLVgMKk4sQ/hqdefault.jpg&#39;);&quot;&gt;
+&lt;lite-youtube videoid=&quot;gm23vP-iHYM&quot; style=&quot;background-image: url(&#39;https://i.ytimg.com/vi/gm23vP-iHYM/hqdefault.jpg&#39;);&quot;&gt;
   &lt;button type=&quot;button&quot; class=&quot;lty-playbtn&quot;&gt;
     &lt;span class=&quot;lyt-visually-hidden&quot;&gt;Play Video: Create a local multi-node Kubernetes cluster with multipass and k3sup&lt;/span&gt;
   &lt;/button&gt;
