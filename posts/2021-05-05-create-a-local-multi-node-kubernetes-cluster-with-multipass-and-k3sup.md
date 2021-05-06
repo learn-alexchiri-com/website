@@ -1,5 +1,5 @@
 ---
-title: Create a local multi-node Kubernetes cluster with multipass and k3sup
+title: Create a local multi-node Kubernetes cluster - multi-platform!
 description: Demoing a basic setup of creating a local cluster using multipass and k3sup
 date: 2021-05-05
 tags:
@@ -12,7 +12,7 @@ layout: layouts/post.njk
 <br/>
 <br/>
 {% set videoTitle = "Create a local multi-node Kubernetes cluster with multipass and k3sup" %}
-{% set videoId = "nkLVgMKk4sQ" %}
+{% set videoId = "gm23vP-iHYM" %}
 {% include 'youtube.njk' %}
 
 Wouldn't it be nice to be able to quickly create a local multi-node #kubernetes​ cluster to play around?
