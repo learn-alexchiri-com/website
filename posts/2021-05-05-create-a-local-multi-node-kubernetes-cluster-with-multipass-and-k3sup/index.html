@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-37431001-4"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-37431001-4');
+    </script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create a local multi-node Kubernetes cluster with multipass and k3sup</title>
+    <meta name="description" content="Demoing a basic setup of creating a local cluster using multipass and k3sup">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/prism-base16-monokai.dark.css">
+    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Learn with alexchiri">
+    <link rel="alternate" href="/feed/feed.json" type="application/json" title="Learn with alexchiri">
+  </head>
+  <body>
+    <header>
+      <h1 class="home"><a href="/"><img src="/img/name-tag.png" style="width: 150px"/></a></h1>
+      <ul class="nav">
+        <li class="nav-item"><a href="/">Home</a></li>
+        <li class="nav-item"><a href="https://alexchiri.com/">alexchiri.com</a></li>
+        <li class="nav-item"><a href="/about/">About Me</a></li>
+        <li class="nav-item"><a href="/posts/">Archive</a></li>
+      </ul>
+    </header>
+
+    <main class="tmpl-post">
+
+      <h1>Create a local multi-node Kubernetes cluster with multipass and k3sup</h1>
+
+<time datetime="2021-05-05">05 May 2021</time><a href="/tags/kubernetes/" class="post-tag">Kubernetes</a><a href="/tags/k3s/" class="post-tag">k3s</a><a href="/tags/multipass/" class="post-tag">multipass</a>
+
+<br/>
+<br/>
+<!-- Load the JS only when the component is needed -->
+<script src="/javascript/lite-yt-embed.js"></script>
+<!-- Web component for lite-youtube-embed -->
+<lite-youtube videoid="nkLVgMKk4sQ" style="background-image: url('https://i.ytimg.com/vi/nkLVgMKk4sQ/hqdefault.jpg');" >
+  <button type="button" class="lty-playbtn">
+    <span class="lyt-visually-hidden">Play Video: Create a local multi-node Kubernetes cluster with multipass and k3sup</span>
+  </button>
+</lite-youtube>
+<p>Wouldn't it be nice to be able to quickly create a local multi-node #kubernetes​ cluster to play around?</p>
+<p>There are some options out there like Docker Desktop that provide a Kuberentes cluster out of the box. But it's usually with one node and you cannot always access the nodes from the host, which can be annoying when learning Kubernetes (for example you cannot access NodePort services).</p>
+<p>I am currently experimenting with a setup using #multipass​ and #k3s​ (#k3sup​) which is multi-platform (works on #Windows​, #Linux​ and #macOS​), allows multi-node setups and comes with support for 1 LoadBalancer service out-of-the-box. Pretty great for learning Kubernetes! 🚀</p>
+<p>This is a very much work in progress and I only did a very basic bash script for now, should write a Powershell one for Windows.</p>
+<p>Let me know in the comments what you think and if you find this useful. I'm planning to post more videos about this.</p>
+<p>👀 Mention: while Googling around, I found a way more advanced solution using similar tooling: <a href="https://github.com/kubernauts/bonsai%E2%80%8B">https://github.com/kubernauts/bonsai​</a></p>
+<p>🔗 Links:</p>
+<ul>
+<li>Project repo: <a href="https://github.com/learn-alexchiri-co">https://github.com/learn-alexchiri-co</a>...​</li>
+<li>Multipass: <a href="https://multipass.xn--run-7m0a">https://multipass.run​</a></li>
+<li>k3s: <a href="https://k3s.xn--io-h1t">https://k3s.io​</a></li>
+<li>k3sup: <a href="https://github.com/alexellis/k3sup">https://github.com/alexellis/k3sup</a></li>
+</ul>
+
+<hr>
+<ul><li>Previous: <a href="/posts/2020-06-22-how-to-dockerize-a-simple-java-service/">How to Dockerize a simple Java service</a></li>
+</ul>
+
+    </main>
+
+    <footer></footer>
+
+    <!-- Current page: /posts/2021-05-05-create-a-local-multi-node-kubernetes-cluster-with-multipass-and-k3sup/ -->
+  </body>
+</html>

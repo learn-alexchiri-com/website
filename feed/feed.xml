@@ -5,12 +5,43 @@
 	
 	<link href="https://learn.alexchiri.com/feed/feed.xml" rel="self"/>
 	<link href="https://learn.alexchiri.com/"/>
-	<updated>2020-06-22T00:00:00Z</updated>
+	<updated>2021-05-05T00:00:00Z</updated>
 	<id>https://learn.alexchiri.com/</id>
 	<author>
 		<name>Alexandru Chiritescu</name>
 		<email>alex.chiri@gmail.com</email>
 	</author>
+	
+	<entry>
+		<title>Create a local multi-node Kubernetes cluster with multipass and k3sup</title>
+		<link href="https://learn.alexchiri.com/posts/2021-05-05-create-a-local-multi-node-kubernetes-cluster-with-multipass-and-k3sup/"/>
+		<updated>2021-05-05T00:00:00Z</updated>
+		<id>https://learn.alexchiri.com/posts/2021-05-05-create-a-local-multi-node-kubernetes-cluster-with-multipass-and-k3sup/</id>
+		<content type="html">&lt;br /&gt;
+&lt;br /&gt;
+&lt;!-- Load the JS only when the component is needed --&gt;
+&lt;script src=&quot;https://learn.alexchiri.com/javascript/lite-yt-embed.js&quot;&gt;&lt;/script&gt;
+&lt;!-- Web component for lite-youtube-embed --&gt;
+&lt;lite-youtube videoid=&quot;nkLVgMKk4sQ&quot; style=&quot;background-image: url(&#39;https://i.ytimg.com/vi/nkLVgMKk4sQ/hqdefault.jpg&#39;);&quot;&gt;
+  &lt;button type=&quot;button&quot; class=&quot;lty-playbtn&quot;&gt;
+    &lt;span class=&quot;lyt-visually-hidden&quot;&gt;Play Video: Create a local multi-node Kubernetes cluster with multipass and k3sup&lt;/span&gt;
+  &lt;/button&gt;
+&lt;/lite-youtube&gt;
+&lt;p&gt;Wouldn&#39;t it be nice to be able to quickly create a local multi-node #kubernetes​ cluster to play around?&lt;/p&gt;
+&lt;p&gt;There are some options out there like Docker Desktop that provide a Kuberentes cluster out of the box. But it&#39;s usually with one node and you cannot always access the nodes from the host, which can be annoying when learning Kubernetes (for example you cannot access NodePort services).&lt;/p&gt;
+&lt;p&gt;I am currently experimenting with a setup using #multipass​ and #k3s​ (#k3sup​) which is multi-platform (works on #Windows​, #Linux​ and #macOS​), allows multi-node setups and comes with support for 1 LoadBalancer service out-of-the-box. Pretty great for learning Kubernetes! 🚀&lt;/p&gt;
+&lt;p&gt;This is a very much work in progress and I only did a very basic bash script for now, should write a Powershell one for Windows.&lt;/p&gt;
+&lt;p&gt;Let me know in the comments what you think and if you find this useful. I&#39;m planning to post more videos about this.&lt;/p&gt;
+&lt;p&gt;👀 Mention: while Googling around, I found a way more advanced solution using similar tooling: &lt;a href=&quot;https://github.com/kubernauts/bonsai%E2%80%8B&quot;&gt;https://github.com/kubernauts/bonsai​&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;🔗 Links:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Project repo: &lt;a href=&quot;https://github.com/learn-alexchiri-co&quot;&gt;https://github.com/learn-alexchiri-co&lt;/a&gt;...​&lt;/li&gt;
+&lt;li&gt;Multipass: &lt;a href=&quot;https://multipass.xn--run-7m0a&quot;&gt;https://multipass.run​&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;k3s: &lt;a href=&quot;https://k3s.xn--io-h1t&quot;&gt;https://k3s.io​&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;k3sup: &lt;a href=&quot;https://github.com/alexellis/k3sup&quot;&gt;https://github.com/alexellis/k3sup&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>How to Dockerize a simple Java service</title>
