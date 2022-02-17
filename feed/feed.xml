@@ -20,7 +20,7 @@
 		<content type="html">&lt;br /&gt;
 &lt;br /&gt;
 &lt;!-- Load the JS only when the component is needed --&gt;
-&lt;script src=&quot;https://learn.alexchiri.com/javascript/lite-yt-embed.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;https://learn.alexchiri.com/src/javascript/lite-youtube-embed.js&quot;&gt;&lt;/script&gt;
 &lt;!-- Web component for lite-youtube-embed --&gt;
 &lt;lite-youtube videoid=&quot;gm23vP-iHYM&quot; style=&quot;background-image: url(&#39;https://i.ytimg.com/vi/gm23vP-iHYM/hqdefault.jpg&#39;);&quot;&gt;
   &lt;button type=&quot;button&quot; class=&quot;lty-playbtn&quot;&gt;
@@ -51,7 +51,7 @@
 		<content type="html">&lt;br /&gt;
 &lt;br /&gt;
 &lt;!-- Load the JS only when the component is needed --&gt;
-&lt;script src=&quot;https://learn.alexchiri.com/javascript/lite-yt-embed.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;https://learn.alexchiri.com/src/javascript/lite-youtube-embed.js&quot;&gt;&lt;/script&gt;
 &lt;!-- Web component for lite-youtube-embed --&gt;
 &lt;lite-youtube videoid=&quot;ts7nE6gO2sA&quot; style=&quot;background-image: url(&#39;https://i.ytimg.com/vi/ts7nE6gO2sA/hqdefault.jpg&#39;);&quot;&gt;
   &lt;button type=&quot;button&quot; class=&quot;lty-playbtn&quot;&gt;
@@ -76,7 +76,7 @@
 		<content type="html">&lt;br /&gt;
 &lt;br /&gt;
 &lt;!-- Load the JS only when the component is needed --&gt;
-&lt;script src=&quot;https://learn.alexchiri.com/javascript/lite-yt-embed.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;https://learn.alexchiri.com/src/javascript/lite-youtube-embed.js&quot;&gt;&lt;/script&gt;
 &lt;!-- Web component for lite-youtube-embed --&gt;
 &lt;lite-youtube videoid=&quot;03IqAdwd9NY&quot; style=&quot;background-image: url(&#39;https://i.ytimg.com/vi/03IqAdwd9NY/hqdefault.jpg&#39;);&quot;&gt;
   &lt;button type=&quot;button&quot; class=&quot;lty-playbtn&quot;&gt;
@@ -100,7 +100,7 @@
 		<content type="html">&lt;br /&gt;
 &lt;br /&gt;
 &lt;!-- Load the JS only when the component is needed --&gt;
-&lt;script src=&quot;https://learn.alexchiri.com/javascript/lite-yt-embed.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;https://learn.alexchiri.com/src/javascript/lite-youtube-embed.js&quot;&gt;&lt;/script&gt;
 &lt;!-- Web component for lite-youtube-embed --&gt;
 &lt;lite-youtube videoid=&quot;vsf2nfFxkZs&quot; style=&quot;background-image: url(&#39;https://i.ytimg.com/vi/vsf2nfFxkZs/hqdefault.jpg&#39;);&quot;&gt;
   &lt;button type=&quot;button&quot; class=&quot;lty-playbtn&quot;&gt;
@@ -120,7 +120,7 @@
 		<content type="html">&lt;br /&gt;
 &lt;br /&gt;
 &lt;!-- Load the JS only when the component is needed --&gt;
-&lt;script src=&quot;https://learn.alexchiri.com/javascript/lite-yt-embed.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;https://learn.alexchiri.com/src/javascript/lite-youtube-embed.js&quot;&gt;&lt;/script&gt;
 &lt;!-- Web component for lite-youtube-embed --&gt;
 &lt;lite-youtube videoid=&quot;QEAE2n4i72I&quot; style=&quot;background-image: url(&#39;https://i.ytimg.com/vi/QEAE2n4i72I/hqdefault.jpg&#39;);&quot;&gt;
   &lt;button type=&quot;button&quot; class=&quot;lty-playbtn&quot;&gt;
@@ -142,7 +142,7 @@
 		<content type="html">&lt;br /&gt;
 &lt;br /&gt;
 &lt;!-- Load the JS only when the component is needed --&gt;
-&lt;script src=&quot;https://learn.alexchiri.com/javascript/lite-yt-embed.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;https://learn.alexchiri.com/src/javascript/lite-youtube-embed.js&quot;&gt;&lt;/script&gt;
 &lt;!-- Web component for lite-youtube-embed --&gt;
 &lt;lite-youtube videoid=&quot;S3m59_lTAuc&quot; style=&quot;background-image: url(&#39;https://i.ytimg.com/vi/S3m59_lTAuc/hqdefault.jpg&#39;);&quot;&gt;
   &lt;button type=&quot;button&quot; class=&quot;lty-playbtn&quot;&gt;
@@ -166,7 +166,7 @@
 		<content type="html">&lt;br /&gt;
 &lt;br /&gt;
 &lt;!-- Load the JS only when the component is needed --&gt;
-&lt;script src=&quot;https://learn.alexchiri.com/javascript/lite-yt-embed.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;https://learn.alexchiri.com/src/javascript/lite-youtube-embed.js&quot;&gt;&lt;/script&gt;
 &lt;!-- Web component for lite-youtube-embed --&gt;
 &lt;lite-youtube videoid=&quot;YvdyoaiE-H0&quot; style=&quot;background-image: url(&#39;https://i.ytimg.com/vi/YvdyoaiE-H0/hqdefault.jpg&#39;);&quot;&gt;
   &lt;button type=&quot;button&quot; class=&quot;lty-playbtn&quot;&gt;
@@ -194,7 +194,7 @@
 		<content type="html">&lt;br /&gt;
 &lt;br /&gt;
 &lt;!-- Load the JS only when the component is needed --&gt;
-&lt;script src=&quot;https://learn.alexchiri.com/javascript/lite-yt-embed.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;https://learn.alexchiri.com/src/javascript/lite-youtube-embed.js&quot;&gt;&lt;/script&gt;
 &lt;!-- Web component for lite-youtube-embed --&gt;
 &lt;lite-youtube videoid=&quot;l4fbYuS3lp4&quot; style=&quot;background-image: url(&#39;https://i.ytimg.com/vi/l4fbYuS3lp4/hqdefault.jpg&#39;);&quot;&gt;
   &lt;button type=&quot;button&quot; class=&quot;lty-playbtn&quot;&gt;
@@ -214,7 +214,7 @@
 		<content type="html">&lt;br /&gt;
 &lt;br /&gt;
 &lt;!-- Load the JS only when the component is needed --&gt;
-&lt;script src=&quot;https://learn.alexchiri.com/javascript/lite-yt-embed.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;https://learn.alexchiri.com/src/javascript/lite-youtube-embed.js&quot;&gt;&lt;/script&gt;
 &lt;!-- Web component for lite-youtube-embed --&gt;
 &lt;lite-youtube videoid=&quot;Ud0LAss1xRo&quot; style=&quot;background-image: url(&#39;https://i.ytimg.com/vi/Ud0LAss1xRo/hqdefault.jpg&#39;);&quot;&gt;
   &lt;button type=&quot;button&quot; class=&quot;lty-playbtn&quot;&gt;
@@ -251,7 +251,7 @@
 		<content type="html">&lt;br /&gt;
 &lt;br /&gt;
 &lt;!-- Load the JS only when the component is needed --&gt;
-&lt;script src=&quot;https://learn.alexchiri.com/javascript/lite-yt-embed.js&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;https://learn.alexchiri.com/src/javascript/lite-youtube-embed.js&quot;&gt;&lt;/script&gt;
 &lt;!-- Web component for lite-youtube-embed --&gt;
 &lt;lite-youtube videoid=&quot;npUKNjEPurQ&quot; style=&quot;background-image: url(&#39;https://i.ytimg.com/vi/npUKNjEPurQ/hqdefault.jpg&#39;);&quot;&gt;
   &lt;button type=&quot;button&quot; class=&quot;lty-playbtn&quot;&gt;
